@@ -1,0 +1,84 @@
+.explorePage {
+    min-height: 700px;
+    padding-top: 100px;
+}
+
+.resultNotFound {
+    font-size: 24px;
+    color: var(--black-light);
+}
+
+.content {
+    gap: 10px;
+    margin-bottom: 50px;
+}
+
+@media (min-width: 768px) {
+    .content {
+        gap: 20px;
+    }
+}
+
+.react-select-container.genresDD {
+    width: 100%;
+}
+
+@media (min-width: 768px) {
+    .react-select-container.genresDD {
+        max-width: 500px;
+        min-width: 250px;
+    }
+}
+
+.react-select-container.sortbyDD {
+    width: 100%;
+    flex-shrink: 0;
+}
+
+@media (min-width: 768px) {
+    .react-select-container.sortbyDD {
+        width: 250px;
+    }
+}
+
+.react-select__control {
+    border: 0;
+    outline: 0;
+    box-shadow: none;
+    background-color: #333;
+    border-radius: 20px;
+}
+
+.react-select__value-container {
+    color: white;
+    margin: 0 10px;
+}
+
+.react-select__single-value {
+    color: white;
+}
+
+.react-select__multi-value {
+    background-color: #444;
+    border-radius: 10px;
+}
+
+.react-select__multi-value__label {
+    color: white;
+}
+
+.react-select__multi-value__remove {
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+}
+
+.react-select__multi-value__remove:hover {
+    color: #bbb;
+}
+
+.react-select__menu {
+    top: 40px;
+    margin: 0;
+    padding: 0;
+}

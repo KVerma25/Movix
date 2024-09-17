@@ -1,0 +1,20 @@
+.profileImg,
+.skItem .circle {
+    width: 125px;
+    height: 125px;
+    cursor: pointer;
+}
+
+@media (min-width: 768px) {
+
+    .profileImg,
+    .skItem .circle {
+        width: 175px;
+        height: 175px;
+    }
+}
+
+.profileImg img {
+    object-position: center top;
+    display: block;
+}

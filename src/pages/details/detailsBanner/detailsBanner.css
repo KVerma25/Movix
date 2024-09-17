@@ -1,0 +1,117 @@
+.detailsBanner {
+    width: 100%;
+    padding-top: 50px;
+}
+
+@media (min-width: 768px) {
+    .detailsBanner {
+        padding-top: 100px;
+        min-height: 700px;
+    }
+}
+
+.detailsBanner .backdrop-img {
+    opacity: 0.1;
+}
+
+.detailsBanner .backdrop-img .lazy-load-image-background {
+    width: 100%;
+    height: 100%;
+}
+
+.detailsBanner .backdrop-img .lazy-load-image-background img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.detailsBanner .opacity-layer {
+    width: 100%;
+    height: 250px;
+    background: linear-gradient(180deg, rgba(4, 21, 45, 0) 0%, #04152d 79.17%);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.detailsBanner .content .left .posterImg {
+    width: 100%;
+    border-radius: 12px;
+}
+
+
+.detailsBanner .content .right .circleRating {
+    max-width: 60px;
+}
+
+.detailsBanner .content .right .circleRating .CircularProgressbar-text {
+    fill: white;
+}
+
+
+.detailsBanner .content .right .playbtn svg {
+    width: 70px;
+}
+
+.detailsBanner .content .right .playbtn .text {
+    font-size: 20px;
+    transition: all 0.7s ease-in-out;
+}
+
+.detailsBanner .content .right .playbtn .triangle {
+    stroke-dasharray: 240;
+    stroke-dashoffset: 480;
+    stroke: white;
+    transform: translateY(0);
+    transition: all 0.7s ease-in-out;
+}
+
+.detailsBanner .content .right .playbtn .circle {
+    stroke: white;
+    stroke-dasharray: 650;
+    stroke-dashoffset: 1300;
+    transition: all 0.5s ease-in-out;
+}
+
+.detailsBanner .content .right .playbtn:hover .text {
+    color: #ff007f;
+}
+
+.detailsBanner .content .right .playbtn:hover .triangle {
+    stroke-dashoffset: 0;
+    opacity: 1;
+    stroke: #ff007f;
+    animation: trailorPlay 0.7s ease-in-out;
+}
+
+.detailsBanner .content .right .playbtn:hover .circle {
+    stroke: #ff007f;
+}
+
+.info {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 15px 0;
+}
+
+.detailsBanner .detailsBannerSkeleton .left {
+    border-radius: 12px;
+    aspect-ratio: 1/1.5;
+}
+
+.detailsBanner .detailsBannerSkeleton .right .row {
+    width: 100%;
+    height: 25px;
+    margin-bottom: 20px;
+    border-radius: 50px;
+}
+
+.detailsBanner .detailsBannerSkeleton .right .row:nth-child(2) {
+    width: 75%;
+    margin-bottom: 50px;
+}
+
+.detailsBanner .detailsBannerSkeleton .right .row:nth-child(5) {
+    width: 50%;
+    margin-bottom: 50px;
+}
